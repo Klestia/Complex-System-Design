@@ -1,0 +1,384 @@
+/* FRONT PAGE */
+.top-bar, ul.dropdown.menu, .top-bar-title {
+	background-color: #fff !important;
+}
+.top-bar-right, .top-bar-left{
+	margin-top: 30px;
+}
+ul.dropdown.menu a, ul.dropdown.menu a:after {
+	color:  #003654;
+	border-color:  #003654 transparent transparent;
+}
+.menu ul {
+	background-color: #fff;
+}
+.menu>li:hover {
+	background-color: #003654;
+}
+.menu li:hover>a{
+	color: #fff;
+}
+footer {
+	text-align: center;
+	border-top: 1px solid #003654;
+	background-color: #003654;
+	color:#fff;
+	padding: 20px;
+	margin-top: 20px;
+}
+.loginButton{
+	border-radius: 3%;
+}
+.loginButton > a{
+	color: #003654 !important;
+	font-weight: bold;
+	background-color:  #fff;
+	padding: 0px;
+}
+.loginButton > a:hover{
+	color:  #fff !important;
+	background-color:  #003654;
+	border-radius: 3%;
+}
+.mainContainer{
+	width: 100%;
+	padding: 0px;
+	border-top:2px solid #003654;
+	border-bottom:2px solid #003654;
+}
+.adminControls{
+	padding:0px;
+	margin-left: 0px;
+}
+.adminControls ul{
+	list-style: none;
+	display: block;
+	background-color:#fff; 
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.adminControls ul li a{
+	color:#c60b22;
+	font-weight: bold;
+}
+.adminControls ul li{
+	padding:15px;
+}
+.adminControls ul li:hover{
+	cursor:pointer;
+	background-color: #c60b22;
+}
+.adminControls ul li:hover a{
+	color:#fff;
+}
+.adminControls ul li.active{
+	background-color: #c60b22;
+}
+.adminControls ul li.active a{
+	color:#fff;
+}
+.adminPanel{
+	border-left: 2px solid #003654;
+	height: 100vh;
+}
+.adminPanel h3{
+	font-weight: bold;
+}
+th{
+	background-color: #003654;
+	color:#fff;
+}
+.SUCCESSADMIN{
+	color:#fff!important;
+	background-color: #25C90A;
+}
+.clickable:hover{
+	cursor: pointer;
+}
+/* FORUM */
+.mainContent{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.search{
+	border: 0px;
+	border-bottom: 1px solid #003654;
+	font-style: italic;
+	opacity: 0.3;
+}
+.search:focus{
+	opacity: 1;
+	color:#c60b22;
+}
+.forumTitle{
+
+}
+.forumHead th:last-of-type{
+	text-align: right !important;
+}
+.forumRow{
+	font-size: 120%;
+}
+.forumBody{
+	border-bottom: 1px solid #003654 !important;
+	border-right: 1px solid #c60b22;
+}
+.forumRow td:last-of-type{
+	text-align: right;
+	font-style: italic;
+}
+.forumRow:hover{
+	cursor:pointer;
+	background-color: #DEDEDE;
+}
+.forumRow i{
+	color:#c60b22;
+}
+.forumThreadNum{
+	font-size:80%;
+	font-style: italic;
+}
+.threadTitle{
+	font-weight: bold;
+	font-size: 90%;
+	font-style: normal;
+	color: #c60b22;
+}
+.threadTime{
+	font-weight:80%;
+	font-style:italic;
+	color:gray;
+}
+.threadControls{
+	font-size: 80%;
+	font-style: italic;
+}
+.deleteThread{
+	color:#c60b22;
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right:5px;
+}
+.deleteThread:hover{
+	font-style: normal;
+}
+.reportThread{
+	color:#607d8b;
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right:5px;
+}
+.reportThread:hover{
+	font-style: normal;
+}
+.reportThread i{
+	color:#607d8b;
+}
+.postedBy{
+	color:#c60b22;
+	float:right;
+	margin-right: 5px;
+}
+.timeStamp{
+	color:#607d8b;
+	float:right;
+	margin-right: 5px;
+	font-style: italic;
+}
+.commentContent{
+	text-align: left!important;
+	font-style: normal !important;
+	font-size: 90%;
+}
+.replyThread{
+	color:black;
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right:5px;
+}
+.replyThread:hover{
+	font-style: normal;
+}
+.editThread{
+	color:#003654 !important;
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right:5px;
+}
+.editThread:hover{
+	font-style: normal;
+}
+.pinThread{
+	color:#039904 !important;
+	font-style: italic;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right:5px;
+}
+.pinThread:hover{
+	font-style: normal;
+}
+.commentControls{
+	float:right;
+	font-size: 80%;
+	font-style: italic;
+}
+.link_refs{
+	padding: 5px;
+	text-align: center;
+	background-color: #003654;
+}
+.link_refs a{
+	margin: 0px !important;
+	background-color: #003654;
+}
+.replyBox{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.commentPost{
+	float: right;
+	background-color: #003654;
+}
+.identifier{
+	float:right;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 10px;
+	border:1px solid gray;
+	margin-left: 5px;
+}
+.identifierU{
+	background-color:#003654;
+	color:#c60b22;
+}
+.identifierE{
+	background-color:#039904;
+	color:black;
+}
+.news_link_refs{
+	padding: 5px;
+	text-align: center;
+	background-color: white !important;
+	color:#003654;
+	margin-bottom: 20px;
+}
+.news_link_refs a{
+	margin: 0px !important;
+	background-color: #003654;
+}
+.news_data{
+	font-style: italic;
+	float:right;
+}
+.news_date{
+	color:#c60b22;
+}
+.news_box{
+	margin: 20px !important;
+	clear:both;
+}
+.categoryTitle{
+	color:#c60b22;
+}
+.info_list{
+	list-style:none;
+}
+.info_list a{
+	color:black;
+	text-decoration: none;
+	font-style: italic;
+}
+.info_list a:hover{
+	cursor:pointer;
+	color:#003654;
+	font-weight: bold;
+}
+.createThread{
+	background-color: #c60b22 !important;
+	float:right;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.threadPin{
+	color:#039904 !important;
+}
+.loginTitle{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.loginBox{
+	text-align: center;
+	padding:40px;
+}
+.loginBox label{
+	color:#c60b22;
+	font-weight: bold;
+}
+.loginBox input{
+	border:0px;
+	border-bottom:1px solid #c60b22;
+	opacity: 0.3;
+}
+.loginBox input:focus{
+	opacity: 1;
+	border-radius: 10px;
+	border:0px;
+	border-bottom:2px solid #c60b22;
+	color:#c60b22;
+}
+.signBox{
+	text-align: center;
+}
+.loginButton{
+	width: 100%;
+	opacity: 1 !important;
+	border-bottom:0px !important;
+	background-color: #c60b22;
+	border-radius: 10px; 
+}
+.locationsBox{
+	width: 35%;
+	float:left;
+}
+#googleMap{
+	width: 65%;
+	height: 400px;
+	float:left;
+	border:2px solid #c60b22;
+}
+.locationsBox ul{
+	list-style: none;
+	text-align: center;
+	margin-left: 0px;
+}
+.locationsBox a{
+	color:#003654;
+	font-weight: bold;
+}
+.locationsBox a:hover{
+	cursor:pointer;
+	color:#c60b22;
+}
+.travelingBox{
+	margin-top:20px;
+}
+.travelingBox{
+	text-align: justify;
+	text-align-last: center;
+}
+.travelingBox ul{
+	
+}
+.travelingBox li{
+	color:#c60b22;
+}
+.travelingBox li p{
+	color:black;
+}

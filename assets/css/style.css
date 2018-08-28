@@ -1,0 +1,117 @@
+/* FRONT PAGE */
+.top-bar, ul.dropdown.menu, .top-bar-title {
+	background-color: transparent !important;
+}
+.top-bar-right, .top-bar-left{
+	margin-top: 30px;
+}
+ul.dropdown.menu a, ul.dropdown.menu a:after {
+	color: #fff;
+	border-color: #fff transparent transparent;
+}
+.hero-image {
+	background-image: url('../images/background.jpg');
+	height: 600px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-image .container {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+
+}
+.slogan {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+	background: rgba(0,0,0,.2);
+	text-shadow: 0 2px 11px rgba(0,0,0,.5);
+	padding: 20px;
+}
+.slogan h1 {
+	font-size: 72px;
+}
+
+.main-container {
+	margin-top: -40px;
+}
+.vertical-feature-block {
+	border-bottom: 1px solid #dfdfdf;
+}
+.vertical-feature-block div {
+	border-right: 1px solid #003654;
+	border-left: 1px solid #003654;
+	text-align: center;
+	padding-top: 35px;
+	background-color: #fff;
+	cursor:pointer;
+}
+.vertical-feature-block div i{
+	font-size: 9em;
+	color:#c60b22;
+}
+.vertical-feature-block div:hover i{
+	color:#fff;
+}
+.vertical-feature-block div:hover{
+	background-color: #c60b22;
+	color:black;
+	transition: ease-in 0.1s;
+}
+.vertical-feature-block div:hover .feature-block-header{
+	color:#fff;
+}
+.menu ul {
+	background-color: #003654;
+}
+.menu>li:hover {
+	background-color: #fff;
+}
+.menu li:hover>a{
+	color: #003654;
+}
+footer {
+	text-align: center;
+	margin-top: 20px;
+	border-top: 1px solid #003654;
+	background-color: #003654;
+	color:#fff;
+	padding: 20px;
+}
+.contact-home {
+	padding: 20px 0;
+	border-top: 1px solid #dfdfdf;
+}
+.loginButton{
+	border-radius: 3%;
+}
+.loginButton > a{
+	color: #003654 !important;
+	font-weight: bold;
+	background-color: transparent;
+	padding: 0px;
+}
+.loginButton > a:hover{
+	color:#003654;
+	background-color: white;
+	border-radius: 3%;
+}
+.feature-block-header{
+	color:#c60b22;
+	font-weight: bold;
+}
+.title-row{
+	font-weight: bold;
+	color:#c60b22;
+}
+.person{
+	text-align: left;
+}
+.person-name{
+	font-style: italic;
+}
